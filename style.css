@@ -1,0 +1,424 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+nav {
+  height: 12%;
+  width: 100%;
+  display: flex;
+  padding: 0 5.5vw;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #9f9f9f;
+}
+#logo {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+#logo h2 {
+  font-size: 2vw;
+  font-weight: 450;
+}
+#navlinks {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 1.8vw;
+}
+#navlinks h4 {
+  cursor: pointer;
+  font-size: 0.95vw;
+  font-weight: 450;
+}
+#navbuttons {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1.8vw;
+}
+#searchbox {
+  display: flex;
+  gap: 0.8vw;
+  cursor: pointer;
+}
+#searchbox h4 {
+  font-size: 0.95vw;
+  font-weight: 450;
+}
+
+#searchbox i {
+  font-size: 0.9vw;
+  font-weight: 450;
+}
+
+#cta {
+  padding: 0.6vw 1.7vw;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  border: 1.5px solid black;
+  transition: all 0.4s ease-out;
+}
+#cta h4 {
+  font-size: 1vw;
+  font-weight: 400;
+}
+#cta:hover {
+  background-color: white;
+  color: black;
+}
+#landing {
+  height: 88%;
+  width: 100%;
+  padding: 2.2vw 5.5vw;
+}
+#landing-wrapper {
+  height: 100%;
+  width: 100%;
+}
+#part1 {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  justify-content: center;
+}
+#triangle {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+}
+.lowertriangle {
+  display: flex;
+  align-items: center;
+  gap: 0vw;
+  margin-top: -0.2px;
+}
+#triangle i {
+  font-size: 0.6vw;
+  line-height: 1;
+  margin: -0.02px;
+}
+#container2 {
+  height: 1.8vw;
+  width: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  border: 1px solid #9f9f9f;
+  border-radius: 20px;
+}
+#container2 h3 {
+  font-size: 0.4vw;
+}
+#container2 h4 {
+  font-size: 0.8vw;
+  font-weight: 450;
+}
+#container3 {
+  height: 1.8vw;
+  width: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  border: 1px solid #9f9f9f;
+  border-radius: 20px;
+}
+#container3 h3 {
+  font-size: 0.4vw;
+}
+#container3 h4 {
+  font-size: 0.8vw;
+  font-weight: 450;
+}
+
+#part2 {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10vw;
+}
+#part2 h1 {
+  font-size: 8.4vw;
+  font-weight: 500;
+}
+
+.content h3 {
+  font-size: 1.1vw;
+  font-weight: 400;
+}
+.part2lower {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  margin-top: 2vw;
+}
+#cta2 {
+  padding: 0.6vw 2.4vw;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  border: 1.5px solid black;
+  transition: all 0.4s ease-out;
+}
+#cta2 h4 {
+  font-size: 1vw;
+  font-weight: 400;
+}
+#cta2:hover {
+  background-color: white;
+  color: black;
+}
+#play {
+  height: 2.4vw;
+  width: 2.4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #000000;
+}
+#play i {
+  font-size: 0.8vw;
+}
+
+#part3 {
+  height: 100%;
+  width: 100%;
+  padding-top: 3vw;
+  display: flex;
+}
+
+#part3part1 {
+  height: 100%;
+  width: 25%;
+}
+#part3part1 h2 {
+  font-size: 2.9vw;
+}
+#part3part1 h4 {
+  margin-top: 1.5vw;
+  font-size: 1vw;
+  font-weight: 450;
+}
+
+#picturediv{
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+#picturediv h5{
+  font-weight: 450;
+}
+#images{
+  display: flex;
+  align-items: center;
+  width: 5vw;
+  position: relative;
+}
+.imgcircle{
+  height:2vw;
+  width: 2vw;
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.imgcircle img{
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+}
+#img5{
+  left: 4vw;
+}
+#img4{
+  left: 3vw;
+}
+#img3{
+  left: 2vw;
+}
+#img2{
+  left: 1vw;
+}
+.linediv{
+  height: 1.8vw;
+  width: 0.08vw;
+  background-color: #000000;
+}
+#firsttag{
+  margin-top: 1.2vw;
+}
+.tagsdiv{
+  display: flex;
+  align-items: center;
+  gap: 0.3vw;
+  margin-bottom: 0.3vw;
+}
+.tags{
+  display: flex;
+  padding: 0.3vw 1.2vw;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #000000;
+}
+.tags h5{
+  font-size: 0.9vw;
+  font-weight: 450;
+}
+#part3part2{
+  height: 100%;
+  width: 48%;
+  position: relative;
+}
+#part2img{
+  height: 91%;
+  width: 90%;
+}
+#part2nav{
+  position: absolute;
+  gap: 0.2vw;
+  top: 5%;
+  left: 5%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.part2navicon{
+  height: 2.3vw;
+  width: 2.3vw;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  border-radius: 50%;
+}
+.part2navicon i{
+  font-size: 1.2vw;
+  font-weight: 450;
+}
+#picturecircle{
+  padding: 0.1vw;
+  background-color: white;
+  border-radius: 50%;
+  height: 2vw;
+  overflow: hidden;
+  width: 2vw;
+}
+#picturecircle img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#navrate{
+  display: flex;
+  padding: 0.2vw 0.4vw;
+  align-items: center;
+  gap: 0.4vw;
+  background-color: rgba(255, 255, 255, 0.354);
+  border-radius: 20px;
+  padding-right: 1vw;
+  backdrop-filter: blur(5px);
+}
+#navrate h4{
+  font-size: 0.8vw;
+  font-weight: 450;
+}
+#part2img img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+#part3part3{
+  height: 100%;
+  width: 27%;
+}
+#part3img{
+  height:55% ;
+  width: 100%;
+}
+#part3img img{
+  height: 100% ;
+  width: 100%;
+  object-fit: cover;
+}
+#part3text{
+  height: 9vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#part3text h2{
+  font-size: 3vw;
+  font-weight: 500;
+}
+#part3text h5{
+  font-weight: 450;
+}
+#part3last{
+  display: flex;
+  align-items: center;
+  gap: 1.7vw;
+}
+#part3last h5{
+  font-weight: 450;
+}
+#horizontallinediv{
+  width: 8vw;
+  height: 0.08vw;
+  background-color: #000000;
+}
+#lastpart{
+  display: flex;
+  align-items: center;
+  width: 9.5vw;
+  justify-content: space-between;
+}
+#lrbutton{
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  justify-content: space-between;
+}
+.lrcircle{
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid #000000;
+}
+
+
